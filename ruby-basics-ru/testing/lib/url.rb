@@ -35,5 +35,4 @@ class Url
 
   extend Forwardable
   def_delegators :@url, :scheme, :host, :port
-
 end
