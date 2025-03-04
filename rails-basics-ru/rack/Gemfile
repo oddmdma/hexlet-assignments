@@ -11,10 +11,4 @@ gem 'rack-heartbeat'
 gem 'minitest-power_assert'
 gem 'rack-minitest'
 gem 'rack-unreloader'
-gem 'rake', '13.0.6'
-gem 'rexml'
 gem 'thin'
-
-group :development do
-  gem 'rubocop', require: false
-end
