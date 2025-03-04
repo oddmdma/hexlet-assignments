@@ -7,7 +7,7 @@ class Router
     # BEGIN
     request = Rack::Request.new(env)
     path = request.path
-    
+
     case path
     when '/'
       [200, { 'Content-Type' => 'text/html' }, ['Hello, World!']]
