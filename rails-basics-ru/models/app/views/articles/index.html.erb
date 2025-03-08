@@ -1,0 +1,4 @@
+<% @articles.each do |article| %>
+  <h2><%= article.title %></h2>
+  <a href="<%= article_path(article) %>">Читать статью</a>
+<% end %>
