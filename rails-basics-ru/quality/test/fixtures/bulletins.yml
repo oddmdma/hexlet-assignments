@@ -1,0 +1,11 @@
+DEFAULTS: &DEFAULTS
+  title: "Test Bulletin"
+  body: "This is a test bulletin"
+
+published:
+  <<: *DEFAULTS
+  published: true
+
+unpublished:
+  <<: *DEFAULTS
+  published: false
