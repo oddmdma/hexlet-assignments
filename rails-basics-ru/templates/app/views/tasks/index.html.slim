@@ -1,0 +1,7 @@
+div
+  h1 Tasks
+  ul
+    - @tasks.each do |task|
+      li
+        = link_to task.name, task_path(task)
+  = link_to 'New Task', new_task_path
